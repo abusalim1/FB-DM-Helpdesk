@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="deletePage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="connect">
+            <p>
+                <strong>Facebook page Integration</strong><br/>
+                Integrated page : <strong>Amazon business </strong>
+            </p>
+            <button onclick="redirectToLogin()">Delete Integration</button>
+            <button onclick="redirectToMessage()">Reply to message</button>
+        </div>
+    </div>
+    <script>
+        function redirectToMessage(){
+            window.location.href = "messages.htm"
+        }
+        function redirectToLogin(){
+            window.location.href = "login.htm"
+        }
+    </script>
+</body>
+</html>
